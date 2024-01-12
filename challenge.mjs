@@ -9,4 +9,8 @@ const weirdExpressions = [
 
 for (const expression of weirdExpressions) {
   // fill this in
+  let newExpression = expression.replaceAll("othoba", "||");
+  newExpression = newExpression.replaceAll("ebong", "&&");
+
+  console.log(newExpression);
 }
